@@ -62,7 +62,9 @@ all_rows = table_element.find_elements_by_xpath("//tr")
 all_values = all_rows[0].find_elements_by_xpath("//td")
 
 n = 18
-kpop_artists = [all_values[i * n:(i + 1) * n] for i in range((len(all_values) + n - 1) // n )] 
+kpop_artists = [all_values[i * n:(i + 1) * n] for i in range((len(all_values) + n - 1) // n )] #split all_values into every 18
+if not len(kpop_artists[-1]) == 18:
+    del kpop_artists[-1]
 
 for artist in kpop_artists:
     stage_name.append(artist[1].text)
@@ -83,6 +85,12 @@ for artist in kpop_artists:
     instagram.append(artist[16].text)
     twitter.append(artist[17].text) 
     print(artist[1].text, artist[2].text, artist[3].text, artist[4].text, artist[5].text, artist[6].text, artist[7].text, artist[8].text, artist[9].text, artist[10].text, artist[11].text, artist[12].text, artist[13].text, artist[14].text, artist[15].text, artist[16].text, artist[17].text)
+
+
+# In[ ]:
+
+
+#As of 4/4/2020, there are 1291 artists
 
 
 # In[218]:

@@ -1,0 +1,7 @@
+README.txt
+setup.py
+kpopy/__init__.py
+kpopy.egg-info/PKG-INFO
+kpopy.egg-info/SOURCES.txt
+kpopy.egg-info/dependency_links.txt
+kpopy.egg-info/top_level.txt

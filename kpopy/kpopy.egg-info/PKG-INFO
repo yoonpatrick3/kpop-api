@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: kpopy
+Version: 0.5
+Summary: KPop Api
+Home-page: https://github.com/yoonpatrick3/kpop-api
+Author: Patrick Yoon
+Author-email: yoonpatrick3@gmail.com
+License: UNKNOWN
+Description: Grab thousands of information about KPop artists. Check Github for documentation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

@@ -1,0 +1,6 @@
+APIFolder/APIFolder/__init__.py
+^^^^^setup.py is in the first api folder
+
+cd to the first api folder
+setup.py sdist
+twine upload dist/api.tar.gz
